@@ -1,0 +1,1315 @@
+fileFormatVersion: 2
+guid: 834bdbd6457e65344974814ad7ca200d
+timeCreated: 1459912792
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: healthbar_0
+    21300002: healthbar_1
+    21300004: healthbar_2
+    21300006: healthbar_3
+    21300008: healthbar_4
+    21300010: healthbar_5
+    21300012: healthbar_6
+    21300014: healthbar_7
+    21300016: healthbar_8
+    21300018: healthbar_9
+    21300020: healthbar_10
+    21300022: healthbar_11
+    21300024: healthbar_12
+    21300026: healthbar_13
+    21300028: healthbar_14
+    21300030: healthbar_15
+    21300032: healthbar_16
+    21300034: healthbar_17
+    21300036: healthbar_18
+    21300038: healthbar_19
+    21300040: healthbar_20
+    21300042: healthbar_21
+    21300044: healthbar_22
+    21300046: healthbar_23
+    21300048: healthbar_24
+    21300050: healthbar_25
+    21300052: healthbar_26
+    21300054: healthbar_27
+    21300056: healthbar_28
+    21300058: healthbar_29
+    21300060: healthbar_30
+    21300062: healthbar_31
+    21300064: healthbar_32
+    21300066: healthbar_33
+    21300068: healthbar_34
+    21300070: healthbar_35
+    21300072: healthbar_36
+    21300074: healthbar_37
+    21300076: healthbar_38
+    21300078: healthbar_39
+    21300080: healthbar_40
+    21300082: healthbar_41
+    21300084: healthbar_42
+    21300086: healthbar_43
+    21300088: healthbar_44
+    21300090: healthbar_45
+    21300092: healthbar_46
+    21300094: healthbar_47
+    21300096: healthbar_48
+    21300098: healthbar_49
+    21300100: healthbar_50
+    21300102: healthbar_51
+    21300104: healthbar_52
+    21300106: healthbar_53
+    21300108: healthbar_54
+    21300110: healthbar_55
+    21300112: healthbar_56
+    21300114: healthbar_57
+    21300116: healthbar_58
+    21300118: healthbar_59
+    21300120: healthbar_60
+    21300122: healthbar_61
+    21300124: healthbar_62
+    21300126: healthbar_63
+    21300128: healthbar_64
+    21300130: healthbar_65
+    21300132: healthbar_66
+    21300134: healthbar_67
+    21300136: healthbar_68
+    21300138: healthbar_69
+    21300140: healthbar_70
+    21300142: healthbar_71
+    21300144: healthbar_72
+    21300146: healthbar_73
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 843, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: healthbar_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 845
+        width: 2002
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1001, y: 133}
+        - {x: -1001, y: -133}
+        - {x: 1001, y: -133}
+        - {x: 1001, y: 133}
+      - - {x: -965, y: -97}
+        - {x: -974, y: -97}
+        - {x: -974, y: 96}
+        - {x: 974, y: 96}
+        - {x: 974, y: -99}
+        - {x: -948, y: -99}
+        - {x: -949, y: -98}
+    - name: healthbar_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 609
+        width: 1960
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -980, y: 110}
+        - {x: -980, y: -109}
+        - {x: 977, y: -109}
+        - {x: 979, y: -107}
+        - {x: 979, y: 110}
+    - name: healthbar_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 342
+        width: 1960
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -980, y: 110}
+        - {x: -980, y: -110}
+        - {x: 980, y: -110}
+        - {x: 980, y: 110}
+    - name: healthbar_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 248
+        width: 34
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 37.5}
+        - {x: -17, y: -34.5}
+        - {x: -15, y: -36.5}
+        - {x: -8, y: -36.5}
+        - {x: -6, y: -34.5}
+        - {x: -3, y: -37.5}
+        - {x: 17, y: -37.5}
+        - {x: 17, y: 37.5}
+    - name: healthbar_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 250
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 250
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 249
+        width: 9
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_7
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 250
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_8
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 249
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_9
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 250
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 36.5}
+        - {x: -16.5, y: -36.5}
+        - {x: 7.5, y: -36.5}
+        - {x: 16.5, y: -33.5}
+        - {x: 16.5, y: 31.5}
+        - {x: 8.5, y: 36.5}
+    - name: healthbar_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 250
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_11
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 251
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_12
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 250
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -7.5}
+        - {x: -17, y: -36.5}
+        - {x: 17, y: -36.5}
+        - {x: 17, y: -4.5}
+        - {x: 7, y: 36.5}
+        - {x: -4, y: 36.5}
+        - {x: -15, y: -0.5}
+    - name: healthbar_13
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 250
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_14
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 250
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 250
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_16
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 250
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 144
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 29}
+        - {x: -27, y: -29}
+        - {x: 23, y: -29}
+        - {x: 27, y: -26}
+        - {x: 27, y: 25}
+        - {x: 21, y: 29}
+    - name: healthbar_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 144
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 144
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 29}
+        - {x: -25.5, y: -29}
+        - {x: 20.5, y: -29}
+        - {x: 25.5, y: -24}
+        - {x: 25.5, y: 29}
+    - name: healthbar_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 121
+        width: 8
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_21
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 144
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -29.5}
+        - {x: 31, y: -8.5}
+        - {x: 26, y: 18.5}
+        - {x: 16, y: 29.5}
+        - {x: -31, y: 29.5}
+        - {x: -31, y: -29.5}
+        - {x: 1, y: -29.5}
+        - {x: 2, y: -28.5}
+        - {x: 3, y: -23.5}
+        - {x: 6, y: -29.5}
+    - name: healthbar_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 143
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: -25.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 23.5, y: -30.5}
+        - {x: 23.5, y: 4.5}
+        - {x: 19.5, y: 30.5}
+        - {x: -7.5, y: 30.5}
+        - {x: -23.5, y: 12.5}
+    - name: healthbar_23
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 144
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: -23}
+        - {x: 34.5, y: -21}
+        - {x: 36.5, y: 7}
+        - {x: 36.5, y: 29}
+        - {x: 4.5, y: 29}
+        - {x: 2.5, y: 24}
+        - {x: -1.5, y: 29}
+        - {x: -36.5, y: 29}
+        - {x: -36.5, y: -29}
+        - {x: -4.5, y: -29}
+        - {x: -1.5, y: -24}
+        - {x: 3.5, y: -29}
+        - {x: 36.5, y: -29}
+    - name: healthbar_24
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 144
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 29}
+        - {x: -26.5, y: -29}
+        - {x: 18.5, y: -29}
+        - {x: 26.5, y: -20}
+        - {x: 26.5, y: 27}
+        - {x: 23.5, y: 29}
+    - name: healthbar_25
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 121
+        width: 8
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_26
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 143
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 11}
+        - {x: 29.5, y: 29}
+        - {x: 26.5, y: 30}
+        - {x: -27.5, y: 30}
+        - {x: -30.5, y: 21}
+        - {x: -30.5, y: -30}
+        - {x: 30.5, y: -30}
+        - {x: 30.5, y: 3}
+        - {x: -3.5, y: 1}
+    - name: healthbar_27
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 143
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 14}
+        - {x: 18, y: 19}
+        - {x: 17, y: 28}
+        - {x: 16, y: 30}
+        - {x: -17, y: 30}
+        - {x: -20, y: 26}
+        - {x: -20, y: -1}
+        - {x: -7, y: -8}
+        - {x: -19, y: -10}
+        - {x: -20, y: -11}
+        - {x: -20, y: -28}
+        - {x: -17, y: -30}
+        - {x: 18, y: -30}
+        - {x: 20, y: -24}
+        - {x: 20, y: 3}
+        - {x: 13, y: 8}
+    - name: healthbar_28
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 190
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_29
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 143
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 19}
+        - {x: -1.5, y: 18}
+        - {x: -2.5, y: 14}
+        - {x: -5.5, y: 19}
+        - {x: -23.5, y: 19}
+        - {x: -23.5, y: -15}
+        - {x: -16.5, y: -19}
+        - {x: 18.5, y: -19}
+        - {x: 23.5, y: -18}
+        - {x: 23.5, y: -4}
+        - {x: 20.5, y: 19}
+    - name: healthbar_30
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 143
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 20}
+        - {x: -18.5, y: 18}
+        - {x: -18.5, y: -13}
+        - {x: -12.5, y: -20}
+        - {x: 11.5, y: -20}
+        - {x: 18.5, y: -16}
+        - {x: 18.5, y: 18}
+        - {x: 17.5, y: 20}
+    - name: healthbar_31
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 158
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_32
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 144
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_33
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 143
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 20}
+        - {x: -13.5, y: 20}
+        - {x: -19.5, y: 13}
+        - {x: -19.5, y: 0}
+        - {x: -18.5, y: -1}
+        - {x: -10.5, y: 2}
+        - {x: -6.5, y: 6}
+        - {x: -8.5, y: 2}
+        - {x: -19.5, y: -4}
+        - {x: -19.5, y: -20}
+        - {x: 19.5, y: -20}
+        - {x: 19.5, y: 13}
+        - {x: 18.5, y: 18}
+    - name: healthbar_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 144
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -15}
+        - {x: -13, y: -20}
+        - {x: 14, y: -20}
+        - {x: 14, y: -16}
+        - {x: 12, y: -13}
+        - {x: 14, y: -16}
+        - {x: 14, y: -19}
+        - {x: 15, y: -20}
+        - {x: 37, y: -20}
+        - {x: 37, y: 8}
+        - {x: 32, y: 20}
+        - {x: -30, y: 20}
+        - {x: -37, y: 16}
+        - {x: -37, y: -20}
+        - {x: -14, y: -20}
+        - {x: -13, y: -19}
+        - {x: -13, y: -16}
+        - {x: -16, y: -13}
+    - name: healthbar_35
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 143
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 0}
+        - {x: 18.5, y: 15}
+        - {x: 12.5, y: 20}
+        - {x: -9.5, y: 20}
+        - {x: -18.5, y: 13}
+        - {x: -18.5, y: -16}
+        - {x: -16.5, y: -20}
+        - {x: 15.5, y: -20}
+        - {x: 18.5, y: -19}
+        - {x: 18.5, y: -7}
+        - {x: 12.5, y: -4}
+    - name: healthbar_36
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 143
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 0}
+        - {x: 18.5, y: 13}
+        - {x: 15.5, y: 20}
+        - {x: -13.5, y: 20}
+        - {x: -18.5, y: 18}
+        - {x: -18.5, y: -19}
+        - {x: -17.5, y: -20}
+        - {x: 13.5, y: -20}
+        - {x: 18.5, y: -16}
+        - {x: 18.5, y: -7}
+        - {x: 12.5, y: -4}
+    - name: healthbar_37
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 158
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_38
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 144
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_39
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 143
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 0}
+        - {x: 19, y: 15}
+        - {x: 14, y: 20}
+        - {x: -10, y: 20}
+        - {x: -17, y: 18}
+        - {x: -19, y: 17}
+        - {x: -19, y: -20}
+        - {x: 13, y: -20}
+        - {x: 19, y: -15}
+        - {x: 19, y: -7}
+        - {x: 13, y: -4}
+    - name: healthbar_40
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 143
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 20}
+        - {x: -18.5, y: 18}
+        - {x: -18.5, y: -13}
+        - {x: -12.5, y: -20}
+        - {x: 11.5, y: -20}
+        - {x: 18.5, y: -16}
+        - {x: 18.5, y: 18}
+        - {x: 17.5, y: 20}
+    - name: healthbar_41
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 144
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 3.5}
+        - {x: 19, y: 20.5}
+        - {x: -21, y: 20.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: -20.5}
+        - {x: 0, y: -20.5}
+        - {x: 0, y: -16.5}
+        - {x: -3, y: -13.5}
+        - {x: 0, y: -16.5}
+    - name: healthbar_42
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 158
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_43
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 143
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_44
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 143
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 20}
+        - {x: -19.5, y: 15}
+        - {x: -19.5, y: 0}
+        - {x: -13.5, y: 0}
+        - {x: -5.5, y: 5}
+        - {x: -9.5, y: 3}
+        - {x: -19.5, y: -4}
+        - {x: -19.5, y: -18}
+        - {x: -17.5, y: -20}
+        - {x: 19.5, y: -20}
+        - {x: 19.5, y: 19}
+        - {x: 16.5, y: 20}
+    - name: healthbar_45
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 144
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -20}
+        - {x: 14, y: -20}
+        - {x: 15, y: -14}
+        - {x: 15, y: -20}
+        - {x: 37, y: -20}
+        - {x: 37, y: 3}
+        - {x: 32, y: 20}
+        - {x: -31, y: 20}
+        - {x: -37, y: 18}
+        - {x: -37, y: -20}
+        - {x: -13, y: -20}
+        - {x: -13, y: -15}
+        - {x: -15, y: -13}
+        - {x: -13, y: -15}
+    - name: healthbar_46
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 144
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_47
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 144
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -20.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 9.5}
+        - {x: 23, y: 17.5}
+        - {x: 19, y: 20.5}
+        - {x: -19, y: 20.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: -20.5}
+        - {x: 0, y: -20.5}
+        - {x: 0, y: -16.5}
+        - {x: -1, y: -14.5}
+        - {x: 0, y: -16.5}
+    - name: healthbar_48
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 143
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 20}
+        - {x: -19.5, y: 17}
+        - {x: -19.5, y: -2}
+        - {x: -13.5, y: 0}
+        - {x: -5.5, y: 5}
+        - {x: -15.5, y: -1}
+        - {x: -19.5, y: -4}
+        - {x: -19.5, y: -20}
+        - {x: 19.5, y: -20}
+        - {x: 19.5, y: 20}
+    - name: healthbar_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 37
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 30}
+        - {x: -32.5, y: -30}
+        - {x: 17.5, y: -30}
+        - {x: 27.5, y: -23}
+        - {x: 32.5, y: 2}
+        - {x: 32.5, y: 30}
+    - name: healthbar_50
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 37
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 30}
+        - {x: 6, y: 23}
+        - {x: 1, y: 29}
+        - {x: 0, y: 30}
+        - {x: -32, y: 30}
+        - {x: -32, y: 19}
+        - {x: -24, y: -23}
+        - {x: -17, y: -30}
+        - {x: 22, y: -30}
+        - {x: 31, y: -20}
+        - {x: 32, y: -7}
+        - {x: 32, y: 30}
+    - name: healthbar_51
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 84
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_52
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 67
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_53
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 38
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 30}
+        - {x: -20, y: 27}
+        - {x: -20, y: 0}
+        - {x: -13, y: -5}
+        - {x: -19, y: -10}
+        - {x: -20, y: -11}
+        - {x: -20, y: -30}
+        - {x: 20, y: -30}
+        - {x: 20, y: 30}
+    - name: healthbar_54
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 84
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_55
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 38
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -19}
+        - {x: -3.5, y: -21}
+        - {x: 17.5, y: -15}
+        - {x: 18.5, y: -11}
+        - {x: 18.5, y: 13}
+        - {x: 16.5, y: 15}
+        - {x: 10.5, y: 16}
+        - {x: 13.5, y: 20}
+        - {x: 20.5, y: 11}
+        - {x: 27.5, y: 9}
+        - {x: 29.5, y: 19}
+        - {x: 29.5, y: 29}
+        - {x: -29.5, y: 29}
+        - {x: -29.5, y: -29}
+        - {x: 29.5, y: -29}
+        - {x: 29.5, y: -9}
+        - {x: 23.5, y: -8}
+    - name: healthbar_56
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 37
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 2.5}
+        - {x: -23.5, y: -25.5}
+        - {x: -18.5, y: -30.5}
+        - {x: 23.5, y: -30.5}
+        - {x: 23.5, y: 3.5}
+        - {x: 19.5, y: 30.5}
+        - {x: -0.5, y: 30.5}
+        - {x: -5.5, y: 23.5}
+    - name: healthbar_57
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 84
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 37
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_59
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 37
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 20}
+        - {x: -18.5, y: -20}
+        - {x: 18.5, y: -20}
+        - {x: 18.5, y: 16}
+        - {x: 17.5, y: 20}
+    - name: healthbar_60
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 38
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16.5}
+        - {x: 0, y: -20.5}
+        - {x: 24, y: -20.5}
+        - {x: 24, y: 5.5}
+        - {x: 23, y: 17.5}
+        - {x: 20, y: 20.5}
+        - {x: -24, y: 20.5}
+        - {x: -24, y: -20.5}
+        - {x: 0, y: -20.5}
+        - {x: 0, y: -15.5}
+        - {x: -2, y: -13.5}
+        - {x: 6, y: 5.5}
+    - name: healthbar_61
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 38
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_62
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 38
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_63
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 17
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 29.5}
+        - {x: 2, y: 28.5}
+        - {x: 2, y: 24.5}
+        - {x: 4, y: 22.5}
+        - {x: 1, y: 24.5}
+        - {x: 1, y: 28.5}
+        - {x: 0, y: 29.5}
+        - {x: -22, y: 29.5}
+        - {x: -22, y: -26.5}
+        - {x: -21, y: -29.5}
+        - {x: -3, y: -29.5}
+        - {x: 13, y: -2.5}
+        - {x: 22, y: 20.5}
+        - {x: 22, y: 29.5}
+    - name: healthbar_64
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 37
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_65
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 16
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 32}
+        - {x: -23.5, y: -32}
+        - {x: 11.5, y: -32}
+        - {x: 23.5, y: -22}
+        - {x: 23.5, y: 32}
+    - name: healthbar_66
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 38
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_67
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 38
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_68
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 38
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_69
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 37
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -6}
+        - {x: 19, y: 1}
+        - {x: 19, y: 13}
+        - {x: 17, y: 20}
+        - {x: -19, y: 20}
+        - {x: -19, y: -14}
+        - {x: -12, y: -20}
+        - {x: 12, y: -20}
+        - {x: 19, y: -15}
+        - {x: 19, y: -8}
+        - {x: 16, y: -5}
+    - name: healthbar_70
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 38
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_71
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 38
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbar_72
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 37
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -21, y: 14}
+        - {x: -21, y: -18}
+        - {x: -15, y: -20}
+        - {x: 19, y: -20}
+        - {x: 21, y: -18}
+        - {x: 21, y: 15}
+        - {x: 20, y: 20}
+    - name: healthbar_73
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 38
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

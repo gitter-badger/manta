@@ -29,12 +29,13 @@ public class TurnManager
         //playerList = Network.connections;
         //print (playerList[0]);
         turncounter = 1;
-        ChangeTurnToC1();
+        //ChangeTurnToC1();
         currentState = characterTurns.CHARACTER1;
     }
 
     void Update()
     {
+        //2 players, each chooses one character to play each
         switch (currentState)
         {
             case characterTurns.CHARACTER1:
@@ -43,7 +44,6 @@ public class TurnManager
                     if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
                     {
                         turncounter++;
-                        ChangeTurnToC2();
                         currentState = characterTurns.CHARACTER2;
                     }
                 }
@@ -53,12 +53,11 @@ public class TurnManager
                     if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
                     {
                         turncounter++;
-                        ChangeTurnToC3();
                         currentState = characterTurns.CHARACTER3;
                     }
                 }
                 break;
-            case characterTurns.CHARACTER3:
+            /*case characterTurns.CHARACTER3:
                 {
 
                     if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
@@ -79,12 +78,13 @@ public class TurnManager
                         currentState = characterTurns.CHARACTER1;
                     }
                 }
-                break;
+                break;*/
             default:
                 break;
         }
     }
-
+    //old functions
+    /*
     private void ChangeTurnToC1() //function for switching to character 1's turn
     {
         char1Turn = true;
@@ -117,6 +117,7 @@ public class TurnManager
         char4Turn = true;
     }
 
+    //test function for get/set
     public bool getBool
     {
         get
@@ -127,5 +128,5 @@ public class TurnManager
         {
             char1Turn = value;
         }
-    }
+    }*/
 }

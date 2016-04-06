@@ -1,9 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerListManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TurnTextControl.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerListManager.cs" Line="37" Column="24" />
+      <File FileName="Assets\Scripts\PlayerListManager.cs" Line="32" Column="1" />
       <File FileName="Assets\Scripts\CharacterSelecter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ButtonMouseOver.cs" Line="45" Column="115" />
+      <File FileName="Assets\Scripts\ClickToContinue.cs" Line="14" Column="46" />
+      <File FileName="Assets\Scripts\TurnTextControl.cs" Line="57" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

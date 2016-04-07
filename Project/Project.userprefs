@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="Project.CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TurnTextControl.cs">
     <Files>
-      <File FileName="Assets\Scripts\TurnTextControl.cs" Line="33" Column="3" />
+      <File FileName="Assets\Scripts\TurnTextControl.cs" Line="43" Column="45" />
       <File FileName="Assets\Scripts\PlayerListManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\CharacterSelecter.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ButtonMouseOver.cs" Line="1" Column="1" />

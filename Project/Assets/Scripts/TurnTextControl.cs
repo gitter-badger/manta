@@ -5,10 +5,12 @@ using System.Diagnostics;
 
 public class TurnTextControl : MonoBehaviour {
 
-	public Vector3 startSize;
+
 	public Vector3 largeSize;
-	public Vector3 startPos;
 	public Vector3 largePos;
+
+	private Vector3 startSize;
+	private Vector3 startPos;
 
 	public Text turnText;
 
@@ -21,13 +23,25 @@ public class TurnTextControl : MonoBehaviour {
 
 	private Stopwatch stopWatch;
 
+	private Vector3 worldSpaceStartPos;
+
 	// Use this for initialization
 	void Start () {
 	
 		rectTransform = gameObject.GetComponent<RectTransform> ();
 
+		worldSpaceStartPos = rectTransform.position;
+
 		stopWatch = new Stopwatch ();
-	}
+
+		rectTransform.anchorMin = new Vector2 (0.5f, 0.5f);
+		rectTransform.anchorMax = new Vector2 (0.5f, 0.5f);
+
+		rectTransform.position = worldSpaceStartPos;
+
+		startSize = rectTransform.localScale;
+		startPos = rectTransform.anchoredPosition;
+		}
 	
 	// Update is called once per frame
 	void Update () {

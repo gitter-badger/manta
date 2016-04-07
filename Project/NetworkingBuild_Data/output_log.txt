@@ -14,24 +14,20 @@ Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild
 Loading C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.032 seconds
+- Completed reload, in  0.034 seconds
 Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Colin\Documents\GitHub\manta\Project\NetworkingBuild_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.423679 ms
+UnloadTime: 0.396540 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.192255 ms
+UnloadTime: 0.266749 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 222.
-Total: 0.135167 ms (FindLiveObjects: 0.007679 ms CreateObjectMapping: 0.005631 ms MarkObjects: 0.119807 ms  DeleteObjects: 0.001535 ms)
+Total: 0.128254 ms (FindLiveObjects: 0.007679 ms CreateObjectMapping: 0.006143 ms MarkObjects: 0.112382 ms  DeleteObjects: 0.001791 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1d18 -> priority: 1 
-  Thread -> id: 25f4 -> priority: 1 
+  Thread -> id: 15b0 -> priority: 1 
+  Thread -> id: 292c -> priority: 1 

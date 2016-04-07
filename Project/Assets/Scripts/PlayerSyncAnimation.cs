@@ -32,9 +32,7 @@ public class PlayerSyncAnimation : NetworkBehaviour
         }
 
         if (isJumping == false)
-        {
             anim.enabled = false;
-        }
     }
 
     IEnumerator JumpTime()

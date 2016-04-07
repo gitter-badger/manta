@@ -7,6 +7,7 @@ public class TurnManager: MonoBehaviour
     //public NetworkPlayer[] playerList; 
 
     public Timer countdownTimer;
+    public bool endTurn;
     public int turncounter; 
 
     public bool char1Turn;
@@ -32,7 +33,7 @@ public class TurnManager: MonoBehaviour
         turncounter = 1;
         //ChangeTurnToC1();
         currentState = characterTurns.CHARACTER1;
-        countdownTimer = GameObject.FindWithTag("Countdown").GetComponent<Timer>();
+        countdownTimer = GameObject.FindWithTag("GameController").GetComponent<Timer>();
          
     }
 
@@ -45,22 +46,24 @@ public class TurnManager: MonoBehaviour
             case characterTurns.CHARACTER1:
                 {
 
-                    if (countdownTimer.timer == countdownTimer.resetValue) //condition for switching turns
+                    if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true)  //condition for switching turns
                     {
                         turncounter++;
                         Debug.Log("player1");
                         currentState = characterTurns.CHARACTER2;
+                        endTurn = false;
                     }
                 }
                 break;
             case characterTurns.CHARACTER2:
                 {
-                    if (countdownTimer.timer == countdownTimer.resetValue) //condition for switching turns
+                    if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true) //condition for switching turns
                     {
                        
                         turncounter--;
                         Debug.Log("player2");
                         currentState = characterTurns.CHARACTER1;
+                        endTurn = false;
                     }
                 }
                 break;
@@ -89,6 +92,12 @@ public class TurnManager: MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void endMyTurn()
+    {
+        endTurn = true;
+        countdownTimer.timer = countdownTimer.resetValue;
     }
     //old functions
     /*

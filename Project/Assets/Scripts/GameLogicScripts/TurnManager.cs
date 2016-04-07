@@ -2,10 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class TurnManager
+public class TurnManager: MonoBehaviour
 {
     //public NetworkPlayer[] playerList; 
 
+    public Timer countdownTimer;
     public int turncounter; 
 
     public bool char1Turn;
@@ -31,29 +32,35 @@ public class TurnManager
         turncounter = 1;
         //ChangeTurnToC1();
         currentState = characterTurns.CHARACTER1;
+        countdownTimer = GameObject.FindWithTag("Countdown").GetComponent<Timer>();
+         
     }
 
     void Update()
     {
+        countdownTimer.startTime();
         //2 players, each chooses one character to play each
         switch (currentState)
         {
             case characterTurns.CHARACTER1:
                 {
 
-                    if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
+                    if (countdownTimer.timer == countdownTimer.resetValue) //condition for switching turns
                     {
                         turncounter++;
+                        Debug.Log("player1");
                         currentState = characterTurns.CHARACTER2;
                     }
                 }
                 break;
             case characterTurns.CHARACTER2:
                 {
-                    if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
+                    if (countdownTimer.timer == countdownTimer.resetValue) //condition for switching turns
                     {
-                        turncounter++;
-                        currentState = characterTurns.CHARACTER3;
+                       
+                        turncounter--;
+                        Debug.Log("player2");
+                        currentState = characterTurns.CHARACTER1;
                     }
                 }
                 break;

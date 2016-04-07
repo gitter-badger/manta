@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 8564091f1b34e2d44a9f7033bfd5381b
+timeCreated: 1460014379
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: group3
+    100004: head
+    100006: L_armGap
+    100008: L_elbow
+    100010: L_end
+    100012: L_foot
+    100014: L_gap1
+    100016: L_gap2
+    100018: L_hand
+    100020: L_heel
+    100022: L_hip
+    100024: L_knee
+    100026: L_shoulder
+    100028: //RootNode
+    100030: R_armGap
+    100032: R_elbow
+    100034: R_end
+    100036: R_foot
+    100038: R_gap1
+    100040: R_gap2
+    100042: R_hand
+    100044: R_heel
+    100046: R_hip
+    100048: R_knee
+    100050: R_shoulder
+    100052: topBody
+    400000: body
+    400002: group3
+    400004: head
+    400006: L_armGap
+    400008: L_elbow
+    400010: L_end
+    400012: L_foot
+    400014: L_gap1
+    400016: L_gap2
+    400018: L_hand
+    400020: L_heel
+    400022: L_hip
+    400024: L_knee
+    400026: L_shoulder
+    400028: //RootNode
+    400030: R_armGap
+    400032: R_elbow
+    400034: R_end
+    400036: R_foot
+    400038: R_gap1
+    400040: R_gap2
+    400042: R_hand
+    400044: R_heel
+    400046: R_hip
+    400048: R_knee
+    400050: R_shoulder
+    400052: topBody
+    4300000: char_geo
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 237
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/body
+        weight: 1
+      - path: group3/body/L_hip
+        weight: 1
+      - path: group3/body/L_hip/L_gap1
+        weight: 1
+      - path: group3/body/L_hip/L_gap1/L_knee
+        weight: 1
+      - path: group3/body/L_hip/L_gap1/L_knee/L_gap2
+        weight: 1
+      - path: group3/body/L_hip/L_gap1/L_knee/L_gap2/L_foot
+        weight: 1
+      - path: group3/body/L_hip/L_gap1/L_knee/L_gap2/L_foot/L_heel
+        weight: 1
+      - path: group3/body/R_hip
+        weight: 1
+      - path: group3/body/R_hip/R_gap1
+        weight: 1
+      - path: group3/body/R_hip/R_gap1/R_knee
+        weight: 1
+      - path: group3/body/R_hip/R_gap1/R_knee/R_gap2
+        weight: 1
+      - path: group3/body/R_hip/R_gap1/R_knee/R_gap2/R_foot
+        weight: 1
+      - path: group3/body/R_hip/R_gap1/R_knee/R_gap2/R_foot/R_heel
+        weight: 1
+      - path: group3/body/topBody
+        weight: 1
+      - path: group3/body/topBody/head
+        weight: 1
+      - path: group3/body/topBody/L_shoulder
+        weight: 1
+      - path: group3/body/topBody/L_shoulder/L_armGap
+        weight: 1
+      - path: group3/body/topBody/L_shoulder/L_armGap/L_elbow
+        weight: 1
+      - path: group3/body/topBody/L_shoulder/L_armGap/L_elbow/L_hand
+        weight: 1
+      - path: group3/body/topBody/L_shoulder/L_armGap/L_elbow/L_hand/L_end
+        weight: 1
+      - path: group3/body/topBody/R_shoulder
+        weight: 1
+      - path: group3/body/topBody/R_shoulder/R_armGap
+        weight: 1
+      - path: group3/body/topBody/R_shoulder/R_armGap/R_elbow
+        weight: 1
+      - path: group3/body/topBody/R_shoulder/R_armGap/R_elbow/R_hand
+        weight: 1
+      - path: group3/body/topBody/R_shoulder/R_armGap/R_elbow/R_hand/R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

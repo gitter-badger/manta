@@ -49,9 +49,13 @@
      <Compile Include="Assets\Scripts\CharacterSelecter.cs" />
      <Compile Include="Assets\Scripts\ClickToContinue.cs" />
      <Compile Include="Assets\Scripts\MenuCanvasSwitch.cs" />
+     <Compile Include="Assets\Scripts\MovementScripts\MovementScript.cs" />
+     <Compile Include="Assets\Scripts\MovementScripts\TileScript.cs" />
      <Compile Include="Assets\Scripts\NetworkMode.cs" />
+     <Compile Include="Assets\Scripts\PlayerClass.cs" />
      <Compile Include="Assets\Scripts\PlayerListManager.cs" />
      <Compile Include="Assets\Scripts\TurnTextControl.cs" />
+     <None Include="Assets\Scripts\MovementScripts\MovementREADME.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

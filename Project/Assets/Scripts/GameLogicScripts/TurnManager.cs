@@ -2,26 +2,27 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class TurnManager: MonoBehaviour
+public class TurnManager : MonoBehaviour
+
 {
     //public NetworkPlayer[] playerList; 
+    private PlayerListManager playerManager;
+
+
+    public int turncounter;
+    public int currentPlayerNumber;
 
     public Timer countdownTimer;
     public bool endTurn;
-    public int turncounter; 
 
-    public bool char1Turn;
-    public bool char2Turn;
-    public bool char3Turn;
-    public bool char4Turn;
     public List<NetworkPlayer> players;
 
     public enum characterTurns
     {
         CHARACTER1,
         CHARACTER2,
-        CHARACTER3,
-        CHARACTER4
+        //CHARACTER3,
+        //CHARACTER4
     }
     public characterTurns currentState;
 
@@ -31,10 +32,12 @@ public class TurnManager: MonoBehaviour
         //playerList = Network.connections;
         //print (playerList[0]);
         turncounter = 1;
+        currentPlayerNumber = 0;
         //ChangeTurnToC1();
         currentState = characterTurns.CHARACTER1;
-        countdownTimer = GameObject.FindWithTag("GameController").GetComponent<Timer>();
-         
+        countdownTimer = GameObject.FindWithTag("TimerObject").GetComponent<Timer>();
+
+        playerManager = gameObject.GetComponent<PlayerListManager>();
     }
 
     void Update()
@@ -45,11 +48,12 @@ public class TurnManager: MonoBehaviour
         {
             case characterTurns.CHARACTER1:
                 {
-
+                    currentPlayerNumber = 0;
                     if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true)  //condition for switching turns
                     {
                         turncounter++;
-                        Debug.Log("player1");
+                      //  Debug.Log("player1");
+                        playerManager.CmdTellServerToSwitchTurn();
                         currentState = characterTurns.CHARACTER2;
                         endTurn = false;
                     }
@@ -57,41 +61,35 @@ public class TurnManager: MonoBehaviour
                 break;
             case characterTurns.CHARACTER2:
                 {
+
+                    currentPlayerNumber = 1;
                     if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true) //condition for switching turns
                     {
                        
                         turncounter--;
-                        Debug.Log("player2");
+                     //   Debug.Log("player2");
+                        playerManager.CmdTellServerToSwitchTurn();
                         currentState = characterTurns.CHARACTER1;
                         endTurn = false;
                     }
                 }
                 break;
-            /*case characterTurns.CHARACTER3:
-                {
-
-                    if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
-                    {
-                        turncounter++;
-                        ChangeTurnToC4();
-                        currentState = characterTurns.CHARACTER4;
-                    }
-                }
-                break;
-            case characterTurns.CHARACTER4:
-                {
-
-                    if (Input.GetKeyDown(KeyCode.Space)) //condition for switching turns
-                    {
-                        turncounter++;
-                        ChangeTurnToC1();
-                        currentState = characterTurns.CHARACTER1;
-                    }
-                }
-                break;*/
+            
             default:
                 break;
         }
+    }
+
+    public int _currentPlayerNumber
+    {
+        get { return currentPlayerNumber; }
+        set { currentPlayerNumber = value; }
+    }
+
+    public int _turnCounter
+    {
+        get { return turncounter; }
+        set { turncounter = value; }
     }
 
     public void endMyTurn()
@@ -99,6 +97,7 @@ public class TurnManager: MonoBehaviour
         endTurn = true;
         countdownTimer.timer = countdownTimer.resetValue;
     }
+
     //old functions
     /*
     private void ChangeTurnToC1() //function for switching to character 1's turn
@@ -131,18 +130,5 @@ public class TurnManager: MonoBehaviour
         char2Turn = false;
         char3Turn = false;
         char4Turn = true;
-    }
-
-    //test function for get/set
-    public bool getBool
-    {
-        get
-        {
-            return char1Turn;
-        }
-        set
-        {
-            char1Turn = value;
-        }
     }*/
 }

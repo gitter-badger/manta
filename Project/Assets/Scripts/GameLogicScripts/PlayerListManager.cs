@@ -15,14 +15,23 @@ public class PlayerListManager : NetworkBehaviour
 
 	void Start ()
     {
+        netManager = GameObject.FindWithTag ("NetworkManager").GetComponent<NetworkManager> ();
+        TurnManager turnManagerScript = this.gameObject.AddComponent<TurnManager>();
 
-		netManager = GameObject.FindWithTag ("NetworkManager").GetComponent<NetworkManager> ();
-	}
+        //Properties can be used just like variables
+        turnManagerScript._currentPlayerNumber = 0;
+        currentPlayerNumber = turnManagerScript._currentPlayerNumber;
+    }
 	
-	void OnClientConnected ()
+    [ClientRpc] public void RpcBeginClientConnect()
     {
+        ClientConnect();
+    }
 
-		CmdAddPlayer (gameObject.GetComponent<NetworkIdentity> ().netId);
+	public void ClientConnect()
+    {
+        print("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu");
+		CmdAddPlayer (netManager.client.connection.playerControllers[0].gameObject.GetComponent<NetworkIdentity>().netId);
 
 	}
 

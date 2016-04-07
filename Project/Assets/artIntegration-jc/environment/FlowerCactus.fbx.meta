@@ -1,31 +1,26 @@
 fileFormatVersion: 2
-guid: 1af42f9b78978a845b3a6fe8bf0e85f9
+guid: 7dcd41dd370fb954b8a5517f0bf065ec
 timeCreated: 1460002706
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: polySurface1
-    100004: polySurface1 1
-    100006: polySurface6
-    100008: polySurface8
-    100010: pSphere2
-    100012: transform27
-    100014: transform28
-    100016: transform29
+    100002: Stump_petals
+    100004: StumpCactus
+    100006: StumpCactus1
+    100008: transform20
+    100010: transform21
     400000: //RootNode
-    400002: polySurface1
-    400004: polySurface1 1
-    400006: polySurface6
-    400008: polySurface8
-    400010: pSphere2
-    400012: transform27
-    400014: transform28
-    400016: transform29
-    2300000: polySurface1
-    3300000: polySurface1
-    4300000: polySurface1
+    400002: Stump_petals
+    400004: StumpCactus
+    400006: StumpCactus1
+    400008: transform20
+    400010: transform21
+    2300000: StumpCactus1
+    3300000: StumpCactus1
+    4300000: StumpCactus1
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1

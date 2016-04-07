@@ -1,32 +1,80 @@
 fileFormatVersion: 2
-guid: 1af42f9b78978a845b3a6fe8bf0e85f9
-timeCreated: 1460002706
+guid: b5181fb0bfff60c448c4a90679fc0928
+timeCreated: 1460009944
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: polySurface1
-    100004: polySurface1 1
-    100006: polySurface6
-    100008: polySurface8
-    100010: pSphere2
-    100012: transform27
-    100014: transform28
-    100016: transform29
-    400000: //RootNode
-    400002: polySurface1
-    400004: polySurface1 1
-    400006: polySurface6
-    400008: polySurface8
-    400010: pSphere2
-    400012: transform27
-    400014: transform28
-    400016: transform29
-    2300000: polySurface1
-    3300000: polySurface1
-    4300000: polySurface1
+    100000: Chest
+    100002: Chest_End
+    100004: Chin
+    100006: Head
+    100008: Head_Top
+    100010: L_Ankle
+    100012: L_Bicep
+    100014: L_Clavical
+    100016: L_Foot_End
+    100018: L_Forearm
+    100020: L_Hand
+    100022: L_Hand_End
+    100024: L_Knee
+    100026: L_Thigh
+    100028: Neck
+    100030: R_Ankle
+    100032: R_Bicep
+    100034: R_Clavical
+    100036: R_Foot_End
+    100038: R_Forearm
+    100040: R_Hand
+    100042: R_Hand_End
+    100044: R_Knee
+    100046: R_Thigh
+    100048: Root
+    100050: SkeletonGroup
+    100052: Skin
+    100054: Spine01
+    100056: Spine02
+    100058: Spine03
+    100060: Spine04
+    100062: Spine05
+    100064: //RootNode
+    400000: Chest
+    400002: Chest_End
+    400004: Chin
+    400006: Head
+    400008: Head_Top
+    400010: L_Ankle
+    400012: L_Bicep
+    400014: L_Clavical
+    400016: L_Foot_End
+    400018: L_Forearm
+    400020: L_Hand
+    400022: L_Hand_End
+    400024: L_Knee
+    400026: L_Thigh
+    400028: Neck
+    400030: R_Ankle
+    400032: R_Bicep
+    400034: R_Clavical
+    400036: R_Foot_End
+    400038: R_Forearm
+    400040: R_Hand
+    400042: R_Hand_End
+    400044: R_Knee
+    400046: R_Thigh
+    400048: Root
+    400050: SkeletonGroup
+    400052: Skin
+    400054: Spine01
+    400056: Spine02
+    400058: Spine03
+    400060: Spine04
+    400062: Spine05
+    400064: //RootNode
+    4300000: Skin
+    7400000: Take 001
     9500000: //RootNode
+    13700000: Skin
   materials:
     importMaterials: 1
     materialName: 0

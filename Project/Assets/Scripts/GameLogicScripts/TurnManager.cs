@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
 public class TurnManager : MonoBehaviour
 
 {
     //public NetworkPlayer[] playerList; 
     private PlayerListManager playerManager;
-    private NetManager netManager;
+    public NetManager netManager;
     private TurnNetworkFunctions turnNetfunctions;
 
     public int turncounter;
@@ -40,63 +41,74 @@ public class TurnManager : MonoBehaviour
         countdownTimer = GameObject.FindWithTag("TimerObject").GetComponent<Timer>();
 
         playerManager = gameObject.GetComponent<PlayerListManager>();
-        netManager = GameObject.FindGameObjectWithTag("NetManager").GetComponent<NetManager>();
-       GameObject[] potentialPlayers = GameObject.FindGameObjectsWithTag("Player");
+        //netManager = GameObject.FindGameObjectWithTag("NetworkManager").GetComponent<NetManager>();
+       
 
-        for (int i = 0; i < potentialPlayers.Length; i++)
-        {
-            if (potentialPlayers[i].GetComponent<TurnNetworkFunctions>().isLocalPlayer)
-            {
-                turnNetfunctions = potentialPlayers[i].GetComponent<TurnNetworkFunctions>();
-            }
-        }
+      
     }
 
     void Update()
     {
-        countdownTimer.startTime();
-        //2 players, each chooses one character to play each
-        switch (currentState)
-        {
-            case characterTurns.CHARACTER1:
-                {
-                    currentPlayerNumber = 0;
-                    if(Input.GetKeyDown(KeyCode.Space))
-                    {
-                        print("p1 space");
-                    }
-                    if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true)  //condition for switching turns
-                    {
-                        turncounter++;
-                        Debug.Log("player1");
-                        turnNetfunctions.CmdTellServerToSwitchTurn();
-                        currentState = characterTurns.CHARACTER2;
-                        endTurn = false;
-                    }
-                }
-                break;
-            case characterTurns.CHARACTER2:
-                {
+        if (gameObject.GetComponent<NetworkIdentity>().isServer)
+        { 
 
-                    currentPlayerNumber = 1;
-                    if (Input.GetKeyDown(KeyCode.Space))
+            if (turnNetfunctions == null)
+            {
+                GameObject[] potentialPlayers = GameObject.FindGameObjectsWithTag("Player");
+
+                for (int i = 0; i < potentialPlayers.Length; i++)
+                {
+                    if (potentialPlayers[i].GetComponent<TurnNetworkFunctions>().isLocalPlayer)
                     {
-                        print("p2 space");
-                    }
-                    if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true) //condition for switching turns
-                    {
-                       
-                        turncounter--;
-                        Debug.Log("player2");
-                        turnNetfunctions.CmdTellServerToSwitchTurn();
-                        currentState = characterTurns.CHARACTER1;
-                        endTurn = false;
+                        turnNetfunctions = potentialPlayers[i].GetComponent<TurnNetworkFunctions>();
                     }
                 }
-                break;
-            
-            default:
-                break;
+            }
+
+            countdownTimer.startTime();
+            //2 players, each chooses one character to play each
+            switch (currentState)
+            {
+                case characterTurns.CHARACTER1:
+                    {
+                        currentPlayerNumber = 0;
+                        if (Input.GetKeyDown(KeyCode.Space))
+                        {
+                            print("p1 space");
+                        }
+                        if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true)  //condition for switching turns
+                        {
+                            turncounter++;
+                            Debug.Log("player1");
+                            turnNetfunctions.CmdTellServerToSwitchTurn();
+                            currentState = characterTurns.CHARACTER2;
+                            endTurn = false;
+                        }
+                    }
+                    break;
+                case characterTurns.CHARACTER2:
+                    {
+
+                        currentPlayerNumber = 1;
+                        if (Input.GetKeyDown(KeyCode.Space))
+                        {
+                            print("p2 space");
+                        }
+                        if (countdownTimer.timer == countdownTimer.resetValue || endTurn == true) //condition for switching turns
+                        {
+
+                            turncounter--;
+                            Debug.Log("player2");
+                            turnNetfunctions.CmdTellServerToSwitchTurn();
+                            currentState = characterTurns.CHARACTER1;
+                            endTurn = false;
+                        }
+                    }
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 
@@ -151,4 +163,5 @@ public class TurnManager : MonoBehaviour
         char3Turn = false;
         char4Turn = true;
     }*/
+
 }

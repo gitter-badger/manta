@@ -10,9 +10,26 @@ public class TurnNetworkFunctions : NetworkBehaviour
 
     private NetManager netManager;
 
+    public List<NetworkInstanceId> playerIdList = new List<NetworkInstanceId>();
+
     void Start()
     {
         netManager = GameObject.FindGameObjectWithTag("NetworkManager").GetComponent<NetManager>();
+
+       if (isLocalPlayer)
+       {
+            CmdAddPlayerToList(gameObject.GetComponent<NetworkIdentity>().netId);
+        }
+    }
+
+    [Command]
+    public void CmdAddPlayerToList(NetworkInstanceId playerId)
+    {
+        if (isServer)
+        {
+            playerIdList.Add(playerId);
+        }
+        
     }
 
     [Command]
@@ -21,19 +38,56 @@ public class TurnNetworkFunctions : NetworkBehaviour
         if (currentPlayerNumber == 0)
         {
             currentPlayerNumber++;
-            RpcSwitchTurn();
+
+            if (isServer)
+            {
+                SwitchTurn(currentPlayerNumber);
+            }
+            else
+            {
+                RpcSwitchTurn(currentPlayerNumber);
+            }
         }
         else if (currentPlayerNumber == 1)
         {
             currentPlayerNumber--;
-            RpcSwitchTurn();
+
+            if (isServer)
+            {
+                SwitchTurn(currentPlayerNumber);
+            }
+            else
+            {
+                RpcSwitchTurn(currentPlayerNumber);
+            }
         }
     }
 
     [ClientRpc]
-    public void RpcSwitchTurn() //if the player's connID is the same as the currentPlayerNumber, that player can move/act, otherwise it can't until its connID matches
+    public void RpcSwitchTurn(int newPlayerNumber)
     {
-        for (int i = 0; i < netManager.players.Count; i++)
+        SwitchTurn(newPlayerNumber);
+    }
+
+
+    public void SwitchTurn(int newPlayernumber) //if the player's connID is the same as the currentPlayerNumber, that player can move/act, otherwise it can't until its connID matches
+    {
+        if (isServer)
+        {
+
+            print("switchingTurns");
+
+            if (playerIdList[newPlayernumber] == gameObject.GetComponent<NetworkIdentity>().netId)
+            {
+                canTakeTurn = true;
+            }
+            else
+            {
+                canTakeTurn = false;
+            }
+        }
+
+        /*for (int i = 0; i < netManager.players.Count; i++)
         {
             if (i == currentPlayerNumber)
             {
@@ -43,7 +97,7 @@ public class TurnNetworkFunctions : NetworkBehaviour
             {
                 canTakeTurn = false;
             }
-        }
+        }*/
     }
 
     //make a function here for get/set the canTakeTurn

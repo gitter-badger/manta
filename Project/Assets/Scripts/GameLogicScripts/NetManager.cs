@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class NetManager : NetworkManager
 {
+    private TurnNetworkFunctions turnNetfunctions;
 
     public List<int> players = new List<int>();
 
@@ -31,7 +32,7 @@ public class NetManager : NetworkManager
 
     void Update()
     {
-       
+
     }
 
     /*void LoopFunction()

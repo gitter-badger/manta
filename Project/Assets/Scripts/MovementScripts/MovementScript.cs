@@ -39,16 +39,38 @@ public class MovementScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(target != null){
+<<<<<<< HEAD
 			//print("Has Target");
 			if(target != curNode){
+=======
+            //print("Has Target");
+            Rotate();
+
+            if (target != curNode){
+>>>>>>> leveldesign-gm-sg
 				CheckPath();
 			}else{
 				Move();
 			}
 		}
 
+<<<<<<< HEAD
 		//DebugColours();
 	}
+=======
+        
+        //DebugColours();
+    }
+
+    void Rotate(){
+        if (moveIndex < path.ToArray().Length - 1){
+            //print("test");
+            //Vector3 target = path.ToArray()[moveIndex].transform.position - transform.position;
+           // Vector3 dir = Vector3.RotateTowards(transform.forward, target, 100, 100);
+           // transform.rotation = Quaternion.LookRotation(dir);
+        }
+    }
+>>>>>>> leveldesign-gm-sg
 
 	public void CheckTile(){
 		RaycastHit hit;
@@ -76,9 +98,19 @@ public class MovementScript : MonoBehaviour {
 			Vector3 pos = new Vector3(path.ToArray()[moveIndex].transform.position.x, transform.position.y, path.ToArray()[moveIndex].transform.position.z);
 			transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
 			if(Vector3.Distance(transform.position, pos) < 0.05f){
+<<<<<<< HEAD
 				transform.position = pos;
 				moveIndex++;
 			}
+=======
+
+               
+
+                transform.position = pos;
+				moveIndex++;
+                //look at pos
+            }
+>>>>>>> leveldesign-gm-sg
 		}else{
 			path.Clear();
 			moveIndex = 0;
@@ -183,7 +215,11 @@ public class MovementScript : MonoBehaviour {
 		//Check which tiles are direct neighbors
 		//for (int x = 0; x < closedNodes.ToArray().Length; x++) {
 			for (int i = 0; i < go.ToArray().Length; i++) {
+<<<<<<< HEAD
 				if(Vector3.Distance(go.ToArray()[i].transform.position, curNode.transform.position) <= 1.1f && go[i] != curNode ){
+=======
+				if(Vector3.Distance(go.ToArray()[i].transform.position, curNode.transform.position) <= 1f && go[i] != curNode ){
+>>>>>>> leveldesign-gm-sg
 					if(path.ToArray().Length >= 2){
 						if(go.ToArray()[i] != path.ToArray()[path.ToArray().Length - 2]){
 							neighbors.Add(go.ToArray()[i]);

@@ -21,12 +21,12 @@ public class PlayerClass : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		curHealth = maxHealth;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		CheckHealth();
+
 	}
 
 	#endregion
@@ -48,15 +48,6 @@ public class PlayerClass : MonoBehaviour {
 		set { curEnergy = value; }
 	}
 
-	void CheckHealth(){
-		if(curHealth > maxHealth){
-			curHealth = maxHealth;
-		}
-		if(curHealth <= 0){
-			//Death Function
-		}
-	}
-
 //	public void TakeDamage(int dam){
 //		int chance = Random.Range(0, 100);
 //		if(chance <= critChance){
@@ -65,6 +56,17 @@ public class PlayerClass : MonoBehaviour {
 //			curHealth -= (int)(((100 - defence) / 100) * dam);
 //		}
 //	}
+
+	public void GetParalized(){
+		Energy = Energy / 2;
+	}
+
+	void OnTriggerEnter(Collider other){
+		if(other.tag == "Para"){
+			GetParalized();
+			print("test : " + Energy);
+		}
+	}
 
 	#endregion
 

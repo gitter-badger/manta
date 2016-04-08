@@ -1,40 +1,67 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class TribalCharacter : MonoBehaviour
-{
+[System.Serializable]
+public struct EnemyInfo{
+	public GameObject enemy;
+	public int turnCount;
+}
+
+public class TribalCharacter : PlayerClass{
 
     public int maxHealth;
     public int curHealth;
+
     public int maxEnergy;
     public int curEnergy;
-    public int damage;
-   // public int turnInt;
 
+	private float baseDamage = 15;
+    public int totalDamage;
+    
+	public int turnInt = 3;
+
+	public List <EnemyInfo> poisonoedPlayers;
 
 	// Use this for initialization
-	void Start ()
-    {
-	
+	void Start (){
+		Health = curHealth;
+
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate ()
-    {
+	void Update (){
+		
         PassiveAbility();
+		CheckHealth();
+
+//		for (int i = 0; i < poisonoedPlayers; i++) {
+//			
+//		}
 	}
 
-    void poisonDamage()
-    {
+    void PoisonAbility(){
+		
+		//poisonoedPlayers.Add(enemy, 3);
 
     }
 
-    void PassiveAbility()
-    {
+    void PassiveAbility(){
         float curH = curHealth;
         float maxH = maxHealth;
-        float factor = 15 + (1 - (curH / maxH)) * 15;
-        damage = (int)factor;
+		totalDamage = (int)(baseDamage + (1 - (curH / maxH)) * baseDamage);
     }
 
+	void CheckStats(){
+
+	}
+
+	void CheckHealth(){
+		if(curHealth > maxHealth){
+			curHealth = maxHealth;
+		}
+		if(curHealth <= 0){
+			//Death Function
+		}
+	}
 }

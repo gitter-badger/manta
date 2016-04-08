@@ -1,0 +1,1340 @@
+fileFormatVersion: 2
+guid: ca758cdf7f83646458811eb5a667fd53
+timeCreated: 1460099407
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: back1
+    100004: back10
+    100006: back2
+    100008: back3
+    100010: back4
+    100012: back5
+    100014: back6
+    100016: back7
+    100018: back8
+    100020: back9
+    100022: joint15
+    100024: joint15 1
+    100026: joint16
+    100028: joint16 1
+    100030: joint17
+    100032: joint18
+    100034: joint19
+    100036: joint20
+    100038: L_2ndFinger1
+    100040: L_2ndFinger2
+    100042: L_2ndFinger3
+    100044: L_3rdFinger1
+    100046: L_3rdFinger2
+    100048: L_Ankle
+    100050: L_Arm
+    100052: L_Cluster
+    100054: L_Elbow
+    100056: L_Forearm
+    100058: L_Knee
+    100060: L_Leg
+    100062: L_Shoulder
+    100064: L_Thumb1
+    100066: L_Thumb2
+    100068: L_Thumb3
+    100070: L_Thumb4
+    100072: L_Toe
+    100074: L_Wrist
+    100076: R_2ndFinger1
+    100078: R_2ndFinger2
+    100080: R_2ndFinger3
+    100082: R_3rdFinger1
+    100084: R_3rdFinger2
+    100086: R_Ankle
+    100088: R_Arm
+    100090: R_Cluster
+    100092: R_Elbow
+    100094: R_Forearm
+    100096: R_Knee
+    100098: R_Reg
+    100100: R_Shoulder
+    100102: R_Thumb1
+    100104: R_Thumb2
+    100106: R_Thumb3
+    100108: R_Thumb4
+    100110: R_Toe
+    100112: R_Wrist
+    100114: Skeleton
+    100116: WholeBody
+    400000: //RootNode
+    400002: back1
+    400004: back10
+    400006: back2
+    400008: back3
+    400010: back4
+    400012: back5
+    400014: back6
+    400016: back7
+    400018: back8
+    400020: back9
+    400022: joint15
+    400024: joint15 1
+    400026: joint16
+    400028: joint16 1
+    400030: joint17
+    400032: joint18
+    400034: joint19
+    400036: joint20
+    400038: L_2ndFinger1
+    400040: L_2ndFinger2
+    400042: L_2ndFinger3
+    400044: L_3rdFinger1
+    400046: L_3rdFinger2
+    400048: L_Ankle
+    400050: L_Arm
+    400052: L_Cluster
+    400054: L_Elbow
+    400056: L_Forearm
+    400058: L_Knee
+    400060: L_Leg
+    400062: L_Shoulder
+    400064: L_Thumb1
+    400066: L_Thumb2
+    400068: L_Thumb3
+    400070: L_Thumb4
+    400072: L_Toe
+    400074: L_Wrist
+    400076: R_2ndFinger1
+    400078: R_2ndFinger2
+    400080: R_2ndFinger3
+    400082: R_3rdFinger1
+    400084: R_3rdFinger2
+    400086: R_Ankle
+    400088: R_Arm
+    400090: R_Cluster
+    400092: R_Elbow
+    400094: R_Forearm
+    400096: R_Knee
+    400098: R_Reg
+    400100: R_Shoulder
+    400102: R_Thumb1
+    400104: R_Thumb2
+    400106: R_Thumb3
+    400108: R_Thumb4
+    400110: R_Toe
+    400112: R_Wrist
+    400114: Skeleton
+    400116: WholeBody
+    4300000: WholeBody
+    7400000: Take 001
+    7400002: Idle
+    7400004: Move
+    7400006: Charm
+    7400008: FireAttack
+    7400010: Hug
+    7400012: Death
+    9500000: //RootNode
+    13700000: WholeBody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Move
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Charm
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: FireAttack
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Hug
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 195
+      lastFrame: 225
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/back1
+        weight: 1
+      - path: Skeleton/back1/back2
+        weight: 1
+      - path: Skeleton/back1/back2/back3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/back10/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_2ndFinger1/L_2ndFinger2/L_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_3rdFinger1/L_3rdFinger2/joint15
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/L_Cluster/joint16/L_Shoulder/L_Arm/L_Elbow/L_Forearm/L_Wrist/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_2ndFinger1/R_2ndFinger2/R_2ndFinger3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_3rdFinger1/R_3rdFinger2/joint15
+          1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3
+        weight: 1
+      - path: Skeleton/back1/back2/back3/back4/back5/back6/back7/back8/back9/R_Cluster/joint16
+          1/R_Shoulder/R_Arm/R_Elbow/R_Forearm/R_Wrist/R_Thumb1/R_Thumb2/R_Thumb3/R_Thumb4
+        weight: 1
+      - path: Skeleton/back1/L_Leg
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle
+        weight: 1
+      - path: Skeleton/back1/L_Leg/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: Skeleton/back1/R_Reg
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle
+        weight: 1
+      - path: Skeleton/back1/R_Reg/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: WholeBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

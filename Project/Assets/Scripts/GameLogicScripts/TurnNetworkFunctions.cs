@@ -10,7 +10,6 @@ public class TurnNetworkFunctions : NetworkBehaviour
 
     private NetManager netManager;
 
-    public List<NetworkInstanceId> playerIdList = new List<NetworkInstanceId>();
 
     void Start()
     {
@@ -22,13 +21,23 @@ public class TurnNetworkFunctions : NetworkBehaviour
         }
     }
 
+    void Update()
+    {
+        if(canTakeTurn)
+        {
+            print("can take turn" + netId);
+        }
+        else if(canTakeTurn == false)
+        {
+            print("can't take turn" + netId);
+        }
+    }
+
     [Command]
     public void CmdAddPlayerToList(NetworkInstanceId playerId)
     {
-        if (isServer)
-        {
-            playerIdList.Add(playerId);
-        }
+        
+        netManager.playerIdList.Add(playerId);
         
     }
 
@@ -39,53 +48,60 @@ public class TurnNetworkFunctions : NetworkBehaviour
         {
             currentPlayerNumber++;
 
-            if (isServer)
-            {
-                SwitchTurn(currentPlayerNumber);
-            }
-            else
-            {
-                RpcSwitchTurn(currentPlayerNumber);
-            }
+            
+            SwitchTurn(currentPlayerNumber);
+            
+          
+            
         }
         else if (currentPlayerNumber == 1)
         {
             currentPlayerNumber--;
 
-            if (isServer)
-            {
-                SwitchTurn(currentPlayerNumber);
-            }
-            else
-            {
-                RpcSwitchTurn(currentPlayerNumber);
-            }
+            SwitchTurn(currentPlayerNumber);
+
+           
         }
+    }
+
+    
+    public void SwitchTurn(int newPlayerNumber)
+    {
+        RpcSwitchTurn(netManager.playerIdList[currentPlayerNumber]);
     }
 
     [ClientRpc]
-    public void RpcSwitchTurn(int newPlayerNumber)
+    public void RpcSwitchTurn(NetworkInstanceId newPlayerId) //if the player's connID is the same as the currentPlayerNumber, that player can move/act, otherwise it can't until its connID matches
     {
-        SwitchTurn(newPlayerNumber);
-    }
 
 
-    public void SwitchTurn(int newPlayernumber) //if the player's connID is the same as the currentPlayerNumber, that player can move/act, otherwise it can't until its connID matches
-    {
-        if (isServer)
+            print("switchingTurns " + "new player id: " + newPlayerId.Value + " player id: " + gameObject.GetComponent<NetworkIdentity>().netId.Value);
+
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+
+        for (int i = 0; i < players.Length; i++)
         {
-
-            print("switchingTurns");
-
-            if (playerIdList[newPlayernumber] == gameObject.GetComponent<NetworkIdentity>().netId)
+            if (newPlayerId == players[i].GetComponent<NetworkIdentity>().netId)
             {
-                canTakeTurn = true;
+                players[i].GetComponent<TurnNetworkFunctions>().canTakeTurn = true;
             }
             else
             {
-                canTakeTurn = false;
+                players[i].GetComponent<TurnNetworkFunctions>().canTakeTurn = false;
             }
         }
+
+        if (newPlayerId == gameObject.GetComponent<NetworkIdentity>().netId)
+        {
+            canTakeTurn = true;
+        }
+        else
+        {
+            canTakeTurn = false;
+        }
+
+            
+        
 
         /*for (int i = 0; i < netManager.players.Count; i++)
         {

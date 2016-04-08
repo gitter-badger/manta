@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: 7f0afd379dc43cd4b9c109fd70d212b4
+timeCreated: 1460081798
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: Chest
+    100006: Chest_End
+    100008: Chin
+    100010: Head
+    100012: Head_Top
+    100014: L_Ankle
+    100016: L_Bicep
+    100018: L_Clavical
+    100020: L_Foot_End
+    100022: L_Forearm
+    100024: L_Hand
+    100026: L_Hand_End
+    100028: L_Knee
+    100030: L_Thigh
+    100032: left
+    100034: Neck
+    100036: R_Ankle
+    100038: R_Bicep
+    100040: R_Clavical
+    100042: R_Foot_End
+    100044: R_Forearm
+    100046: R_Hand
+    100048: R_Hand_End
+    100050: R_Knee
+    100052: R_Thigh
+    100054: Root
+    100056: SkeletonGroup
+    100058: Skin
+    100060: Spine01
+    100062: Spine02
+    100064: Spine03
+    100066: Spine04
+    100068: Spine05
+    100070: //RootNode
+    400000: back
+    400002: bottom
+    400004: Chest
+    400006: Chest_End
+    400008: Chin
+    400010: Head
+    400012: Head_Top
+    400014: L_Ankle
+    400016: L_Bicep
+    400018: L_Clavical
+    400020: L_Foot_End
+    400022: L_Forearm
+    400024: L_Hand
+    400026: L_Hand_End
+    400028: L_Knee
+    400030: L_Thigh
+    400032: left
+    400034: Neck
+    400036: R_Ankle
+    400038: R_Bicep
+    400040: R_Clavical
+    400042: R_Foot_End
+    400044: R_Forearm
+    400046: R_Hand
+    400048: R_Hand_End
+    400050: R_Knee
+    400052: R_Thigh
+    400054: Root
+    400056: SkeletonGroup
+    400058: Skin
+    400060: Spine01
+    400062: Spine02
+    400064: Spine03
+    400066: Spine04
+    400068: Spine05
+    400070: //RootNode
+    4300000: Skin
+    7400000: Walk
+    7400002: Take 001
+    7400004: Idle
+    7400006: Snare
+    7400008: Attack
+    7400010: Poison
+    7400012: TakeDamage
+    7400014: Death
+    9500000: //RootNode
+    13700000: Skin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 274
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Snare
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 196
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Poison
+      takeName: Take 001
+      firstFrame: 201
+      lastFrame: 232
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: TakeDamage
+      takeName: Take 001
+      firstFrame: 241
+      lastFrame: 252
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 261
+      lastFrame: 274
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Skin
+        weight: 1
+      - path: Skin/SkeletonGroup
+        weight: 1
+      - path: Skin/SkeletonGroup/Root
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/L_Thigh/L_Knee/L_Ankle/L_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/R_Thigh/R_Knee/R_Ankle/R_Foot_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Chest/Chest_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/L_Clavical/L_Bicep/L_Forearm/L_Hand/L_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/R_Clavical/R_Bicep/R_Forearm/R_Hand/R_Hand_End
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Chin
+        weight: 1
+      - path: Skin/SkeletonGroup/Root/Spine01/Spine02/Spine03/Spine04/Spine05/Neck/Head/Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: efe6199b449d2a1438ec7e5e3765451b
+timeCreated: 1460081799
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: Back_Curve
+    100004: Back_Ik
+    100006: BackGroup
+    100008: Body_CTRL
+    100010: bottom
+    100012: Chest
+    100014: Chest_End
+    100016: Chin
+    100018: Head
+    100020: Head_CTRL
+    100022: Head_Top
+    100024: L_Ankle
+    100026: L_Ankle_Pivot
+    100028: L_Arm_IK
+    100030: L_Bicep
+    100032: L_Clavical
+    100034: L_Elbow_CTRL
+    100036: L_Foot_CTRL
+    100038: L_Foot_End
+    100040: L_Foot_IK
+    100042: L_Forearm
+    100044: L_Hand
+    100046: L_Hand_CTRL
+    100048: L_Hand_End
+    100050: L_Knee
+    100052: L_Knee_CTRL
+    100054: L_Leg_Group
+    100056: L_Leg_IK
+    100058: L_Leg_Pivot
+    100060: L_Thigh
+    100062: left
+    100064: Lower_Back_Cluster
+    100066: Lower_Back_CTRL
+    100068: Master_CTRL
+    100070: Neck
+    100072: R_Ankle
+    100074: R_Arm_IK
+    100076: R_Bicep
+    100078: R_Clavical
+    100080: R_Elbow_CTRL
+    100082: R_Foot_CTRL
+    100084: R_Foot_End
+    100086: R_Foot_IK
+    100088: R_Foot_Pivot
+    100090: R_Forearm
+    100092: R_Hand
+    100094: R_Hand_CTRL
+    100096: R_Hand_End
+    100098: R_Knee
+    100100: R_Knee_CTRL
+    100102: R_Leg_Group
+    100104: R_Leg_IK
+    100106: R_Leg_Pivot
+    100108: R_Thigh
+    100110: RigGroup
+    100112: Root
+    100114: SkeletonGroup
+    100116: Skin
+    100118: Spine01
+    100120: Spine02
+    100122: Spine03
+    100124: Spine04
+    100126: Spine05
+    100128: //RootNode
+    100130: Upper_Back_Cluster
+    100132: Upper_Back_CTRL
+    400000: back
+    400002: Back_Curve
+    400004: Back_Ik
+    400006: BackGroup
+    400008: Body_CTRL
+    400010: bottom
+    400012: Chest
+    400014: Chest_End
+    400016: Chin
+    400018: Head
+    400020: Head_CTRL
+    400022: Head_Top
+    400024: L_Ankle
+    400026: L_Ankle_Pivot
+    400028: L_Arm_IK
+    400030: L_Bicep
+    400032: L_Clavical
+    400034: L_Elbow_CTRL
+    400036: L_Foot_CTRL
+    400038: L_Foot_End
+    400040: L_Foot_IK
+    400042: L_Forearm
+    400044: L_Hand
+    400046: L_Hand_CTRL
+    400048: L_Hand_End
+    400050: L_Knee
+    400052: L_Knee_CTRL
+    400054: L_Leg_Group
+    400056: L_Leg_IK
+    400058: L_Leg_Pivot
+    400060: L_Thigh
+    400062: left
+    400064: Lower_Back_Cluster
+    400066: Lower_Back_CTRL
+    400068: Master_CTRL
+    400070: Neck
+    400072: R_Ankle
+    400074: R_Arm_IK
+    400076: R_Bicep
+    400078: R_Clavical
+    400080: R_Elbow_CTRL
+    400082: R_Foot_CTRL
+    400084: R_Foot_End
+    400086: R_Foot_IK
+    400088: R_Foot_Pivot
+    400090: R_Forearm
+    400092: R_Hand
+    400094: R_Hand_CTRL
+    400096: R_Hand_End
+    400098: R_Knee
+    400100: R_Knee_CTRL
+    400102: R_Leg_Group
+    400104: R_Leg_IK
+    400106: R_Leg_Pivot
+    400108: R_Thigh
+    400110: RigGroup
+    400112: Root
+    400114: SkeletonGroup
+    400116: Skin
+    400118: Spine01
+    400120: Spine02
+    400122: Spine03
+    400124: Spine04
+    400126: Spine05
+    400128: //RootNode
+    400130: Upper_Back_Cluster
+    400132: Upper_Back_CTRL
+    4300000: Skin
+    9500000: //RootNode
+    13700000: Skin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

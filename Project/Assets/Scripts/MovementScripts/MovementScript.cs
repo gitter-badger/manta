@@ -40,8 +40,8 @@ public class MovementScript : MonoBehaviour {
 	void Update () {
 		if(target != null){
             //print("Has Target");
-            Vector3 dir = path.ToArray()[moveIndex].transform.position - transform.position;
-            transform.LookAt(dir);
+            Rotate();
+
             if (target != curNode){
 				CheckPath();
 			}else{
@@ -51,6 +51,15 @@ public class MovementScript : MonoBehaviour {
 
         
         //DebugColours();
+    }
+
+    void Rotate(){
+        if (moveIndex < path.ToArray().Length - 1){
+            //print("test");
+            //Vector3 target = path.ToArray()[moveIndex].transform.position - transform.position;
+           // Vector3 dir = Vector3.RotateTowards(transform.forward, target, 100, 100);
+           // transform.rotation = Quaternion.LookRotation(dir);
+        }
     }
 
 	public void CheckTile(){

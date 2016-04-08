@@ -40,13 +40,19 @@ public class MovementScript : MonoBehaviour {
 	void Update () {
 		if(target != null){
 <<<<<<< HEAD
+<<<<<<< HEAD
 			//print("Has Target");
 			if(target != curNode){
 =======
+=======
+>>>>>>> leveldesign-gm-sg
             //print("Has Target");
             Rotate();
 
             if (target != curNode){
+<<<<<<< HEAD
+>>>>>>> leveldesign-gm-sg
+=======
 >>>>>>> leveldesign-gm-sg
 				CheckPath();
 			}else{
@@ -55,9 +61,12 @@ public class MovementScript : MonoBehaviour {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//DebugColours();
 	}
 =======
+=======
+>>>>>>> leveldesign-gm-sg
         
         //DebugColours();
     }
@@ -70,6 +79,9 @@ public class MovementScript : MonoBehaviour {
            // transform.rotation = Quaternion.LookRotation(dir);
         }
     }
+<<<<<<< HEAD
+>>>>>>> leveldesign-gm-sg
+=======
 >>>>>>> leveldesign-gm-sg
 
 	public void CheckTile(){
@@ -99,10 +111,13 @@ public class MovementScript : MonoBehaviour {
 			transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
 			if(Vector3.Distance(transform.position, pos) < 0.05f){
 <<<<<<< HEAD
+<<<<<<< HEAD
 				transform.position = pos;
 				moveIndex++;
 			}
 =======
+=======
+>>>>>>> leveldesign-gm-sg
 
                
 
@@ -110,6 +125,9 @@ public class MovementScript : MonoBehaviour {
 				moveIndex++;
                 //look at pos
             }
+<<<<<<< HEAD
+>>>>>>> leveldesign-gm-sg
+=======
 >>>>>>> leveldesign-gm-sg
 		}else{
 			path.Clear();
@@ -216,7 +234,11 @@ public class MovementScript : MonoBehaviour {
 		//for (int x = 0; x < closedNodes.ToArray().Length; x++) {
 			for (int i = 0; i < go.ToArray().Length; i++) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				if(Vector3.Distance(go.ToArray()[i].transform.position, curNode.transform.position) <= 1.1f && go[i] != curNode ){
+=======
+				if(Vector3.Distance(go.ToArray()[i].transform.position, curNode.transform.position) <= 1f && go[i] != curNode ){
+>>>>>>> leveldesign-gm-sg
 =======
 				if(Vector3.Distance(go.ToArray()[i].transform.position, curNode.transform.position) <= 1f && go[i] != curNode ){
 >>>>>>> leveldesign-gm-sg

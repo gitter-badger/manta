@@ -30,7 +30,7 @@ public class PlayerListManager : NetworkBehaviour
 
 	public void ClientConnect()
     {
-        print("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu");
+        print("clientConnected");
 		CmdAddPlayer (netManager.client.connection.playerControllers[0].gameObject.GetComponent<NetworkIdentity>().netId);
 
 	}

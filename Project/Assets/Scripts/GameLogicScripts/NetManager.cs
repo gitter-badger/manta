@@ -3,9 +3,8 @@ using System.Collections;
 using UnityEngine.Networking;
 using System.Collections.Generic;
 
-public class netManager : NetworkManager {
-
-    public PlayerListManager playerListManager;
+public class NetManager : NetworkManager
+{
 
     public List<int> players = new List<int>();
 
@@ -29,4 +28,24 @@ public class netManager : NetworkManager {
 
         //client.connection.playerControllers[0].gameObject.GetComponent<PlayerListManager>().RpcBeginClientConnect();
     }
+
+    void Update()
+    {
+       
+    }
+
+    /*void LoopFunction()
+    {
+        for (int i = 0; i < players.Count; i++)
+        {
+            if (i == currentPlayerNumber)
+            {
+                canMove = true;
+            }
+            else if (i != currentPlayerNumber)
+            {
+                canMove = false;
+            }
+        }
+    }*/
 }

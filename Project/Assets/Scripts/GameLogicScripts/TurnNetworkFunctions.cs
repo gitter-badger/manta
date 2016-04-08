@@ -5,11 +5,12 @@ using System.Collections.Generic;
 
 public class TurnNetworkFunctions : NetworkBehaviour
 {
+    //This script should be on all player objects
+
     private int currentPlayerNumber;
     private bool canTakeTurn;
 
     private NetManager netManager;
-
 
     void Start()
     {
@@ -35,47 +36,34 @@ public class TurnNetworkFunctions : NetworkBehaviour
 
     [Command]
     public void CmdAddPlayerToList(NetworkInstanceId playerId)
-    {
-        
-        netManager.playerIdList.Add(playerId);
-        
+    {  
+        netManager.playerIdList.Add(playerId);  
     }
 
     [Command]
-    public void CmdTellServerToSwitchTurn() //Server command that changes the currentPlayerNumber
+    public void CmdTellServerToSwitchTurn() //Command that changes the currentPlayerNumber
     {
         if (currentPlayerNumber == 0)
         {
             currentPlayerNumber++;
-
-            
             SwitchTurn(currentPlayerNumber);
-            
-          
-            
         }
         else if (currentPlayerNumber == 1)
         {
             currentPlayerNumber--;
-
             SwitchTurn(currentPlayerNumber);
-
-           
         }
     }
 
-    
     public void SwitchTurn(int newPlayerNumber)
     {
         RpcSwitchTurn(netManager.playerIdList[currentPlayerNumber]);
     }
 
     [ClientRpc]
-    public void RpcSwitchTurn(NetworkInstanceId newPlayerId) //if the player's connID is the same as the currentPlayerNumber, that player can move/act, otherwise it can't until its connID matches
+    public void RpcSwitchTurn(NetworkInstanceId newPlayerId) 
     {
-
-
-            print("switchingTurns " + "new player id: " + newPlayerId.Value + " player id: " + gameObject.GetComponent<NetworkIdentity>().netId.Value);
+        print("switchingTurns " + "new player id: " + newPlayerId.Value + " player id: " + gameObject.GetComponent<NetworkIdentity>().netId.Value);
 
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
 
@@ -99,22 +87,11 @@ public class TurnNetworkFunctions : NetworkBehaviour
         {
             canTakeTurn = false;
         }
-
-            
-        
-
-        /*for (int i = 0; i < netManager.players.Count; i++)
-        {
-            if (i == currentPlayerNumber)
-            {
-                canTakeTurn = true; //this bool should be referenced on each player script
-            }
-            else if (i != currentPlayerNumber)
-            {
-                canTakeTurn = false;
-            }
-        }*/
     }
 
-    //make a function here for get/set the canTakeTurn
+    public bool _canTaketurn //This is used on character scripts to indicate if the player can move/take actions this turn
+    {
+        get { return canTakeTurn; }
+        set { canTakeTurn = value; }
+    }
 }

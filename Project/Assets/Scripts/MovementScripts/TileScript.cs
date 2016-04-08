@@ -12,8 +12,11 @@ public class TileScript : MonoBehaviour {
 
 	void OnMouseDown(){
 		if(isWalkable){
-			player.target = this.gameObject;
-			player.CheckTile();
+            if (player.target == null)
+            {
+                player.target = this.gameObject;
+                player.CheckTile();
+            }
 		}
 	}
 }

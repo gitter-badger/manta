@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class CharacterSelecter : MonoBehaviour {
 
 	public Image characterPreviewImg;
+	public Text characterName;
 	public Sprite[] characterImgs;
+	public string[] characterNames;
 	public int gameScene;
 
 	public GameObject networkManager;
@@ -22,6 +24,7 @@ public class CharacterSelecter : MonoBehaviour {
 		PlayerPrefs.DeleteKey("PlayerNumber");
 
 		characterPreviewImg.sprite = characterImgs [currentImgNumber];
+		characterName.text = characterNames [currentImgNumber];
 	}
 	
 	// Update is called once per frame
@@ -44,6 +47,7 @@ public class CharacterSelecter : MonoBehaviour {
 		}
 
 		characterPreviewImg.sprite = characterImgs [currentImgNumber];
+		characterName.text = characterNames [currentImgNumber];
 	}
 
 	public void SetPlayerNumber()
